@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+
     <Button
         android:id="@+id/button"
         android:layout_width="351dp"
@@ -13,6 +14,7 @@
         android:layout_marginEnd="28dp"
         android:backgroundTint="#A8CAEA"
         android:text="Показать результаты"
+        android:textColor="#3949AB"
         app:layout_constraintEnd_toEndOf="parent"
         tools:layout_editor_absoluteY="598dp" />
 
@@ -47,5 +49,55 @@
         app:srcCompat="@drawable/image_6"
         tools:layout_editor_absoluteX="228dp"
         tools:layout_editor_absoluteY="381dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="174dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="381dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        tools:layout_editor_absoluteX="217dp"
+        tools:layout_editor_absoluteY="174dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        tools:layout_editor_absoluteX="217dp"
+        tools:layout_editor_absoluteY="381dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Кофейня “Мур-мяу”"
+        android:textColor="#2E2D2D"
+        tools:layout_editor_absoluteX="255dp"
+        tools:layout_editor_absoluteY="35dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Завтрак"
+        android:textColor="#2E2D2D"
+        tools:layout_editor_absoluteX="178dp"
+        tools:layout_editor_absoluteY="73dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
